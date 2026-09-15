@@ -1,0 +1,206 @@
+id_prioridad,nombre_prioridad,nivel_urgencia,tiempo_respuesta_horas,descripcion,estado,dias_max_respuesta
+1,PRIORIDAD_TEMPORE,Baja,48.0,Ad eius dolore qui.,Activo,3.0
+2,PRIORIDAD_VERITATIS,Media,4.0,Assumenda in adipisci dolor magnam ad dicta.,Activo,
+3,PRIORIDAD_TOTAM,Baja,48.0,In ipsum eius sit quis cum in.,En Espera,7.0
+4,PRIORIDAD_HIC,Baja,12.0,Dolor quis aut fugit.,En Espera,1.0
+5,  pri_laborum  ,Baja,4.0,Eaque aliquam itaque commodi ullam aspernatur eos occaecati.,Activo,2.0
+6,PRIORIDAD_MAGNI,Baja,4.0,Deleniti architecto optio quo voluptates sequi sint.,En Espera,
+7,PRIORIDAD_MODI,  crítica  ,12.0,Iste rerum cum explicabo pariatur.,Activo,7.0
+8,PRIORIDAD_VOLUPTATES,Alta,,Non cupiditate quas cum.,Activo,2.0
+9,PRIORIDAD_MODI,Crítica,8.0,Voluptatibus odit nam placeat sapiente.,Inactivo,2.0
+10,  pri_eum  ,Media,2.0,Rem illo architecto.,Inactivo,1.0
+11,PRIORIDAD_REICIENDIS,CRÍTICA,8.0,Distinctio libero suscipit odit corporis consequuntur.,Activo,3.0
+12,PRIORIDAD_RATIONE,Alta,,Ea nesciunt tempore id dolor voluptatum magni.,,1.0
+13,PRIORIDAD_CONSECTETUR,Crítica,2.0,Similique corrupti cum.,En Espera,5.0
+14,PRIORIDAD_VERO,  baja  ,8.0,Nisi harum nisi iusto dolorum mollitia.,En Espera,
+15,  pri_vero  ,Alta,4.0,Placeat modi eaque odit.,En Espera,
+16,PRIORIDAD_CULPA,Baja,48.0,Ipsa iste veritatis soluta ea.,Activo,2.0
+17,PRIORIDAD_PROVIDENT,Alta,,Magni autem numquam sapiente.,Activo,2.0
+18,PRIORIDAD_QUAE,Baja,8.0,Dicta fugiat cum veritatis ullam ullam nobis laborum.,Inactivo,5.0
+19,PRIORIDAD_CULPA,Alta,8.0,Soluta rerum esse animi soluta veniam.,Activo,3.0
+20,  pri_placeat  ,Media,8.0,Voluptate minus commodi optio.,En Espera,
+21,PRIORIDAD_QUO,  baja  ,48.0,Eaque sit incidunt distinctio.,En Espera,2.0
+22,PRIORIDAD_QUIS,MEDIA,12.0,Quae id perferendis fuga tempore.,Activo,5.0
+23,PRIORIDAD_ODIO,Alta,48.0,Dolorum aperiam accusantium mollitia.,En Espera,7.0
+24,PRIORIDAD_REPUDIANDAE,Media,48.0,Ab provident animi architecto adipisci.,,3.0
+25,  pri_aut  ,Baja,,Dolores pariatur distinctio consequatur vel necessitatibus labore.,Activo,1.0
+26,PRIORIDAD_PARIATUR,Alta,8.0,Deleniti atque inventore incidunt iure quas.,Inactivo,1.0
+27,PRIORIDAD_VENIAM,Media,48.0,Aperiam quas reiciendis autem.,En Espera,3.0
+28,PRIORIDAD_EARUM,  media  ,12.0,Modi consequuntur delectus iure soluta.,En Espera,5.0
+29,PRIORIDAD_AUTEM,Crítica,8.0,Repellat sequi atque officiis molestiae accusamus.,Activo,2.0
+30,  pri_ex  ,Media,24.0,Illo laboriosam sint temporibus.,En Espera,7.0
+31,PRIORIDAD_DOLOREMQUE,Alta,24.0,A hic unde quos eligendi possimus.,En Espera,5.0
+32,PRIORIDAD_QUOS,Crítica,4.0,Culpa error voluptas neque molestiae quibusdam animi.,Inactivo,2.0
+33,PRIORIDAD_REPREHENDERIT,CRÍTICA,,Magnam sequi culpa vero aspernatur delectus nisi.,Activo,1.0
+34,PRIORIDAD_VENIAM,Baja,48.0,Illo velit necessitatibus neque aliquam.,Activo,2.0
+35,  pri_nihil  ,  crítica  ,2.0,Natus et ea pariatur et eaque consectetur officia.,En Espera,5.0
+36,PRIORIDAD_OFFICIA,Crítica,24.0,Ut vel ab numquam natus aut.,,5.0
+37,PRIORIDAD_QUIDEM,Alta,,Magni consequatur expedita architecto doloribus.,En Espera,1.0
+38,PRIORIDAD_ID,Baja,24.0,Ipsa molestiae esse voluptates.,En Espera,3.0
+39,PRIORIDAD_ULLAM,Alta,8.0,Ab repellendus error optio vel consequatur blanditiis.,Activo,5.0
+40,  pri_quod  ,Media,2.0,Earum non quaerat dignissimos.,Inactivo,
+41,PRIORIDAD_TEMPORA,Alta,,Magnam dolorum tenetur amet odio.,En Espera,2.0
+42,PRIORIDAD_HARUM,  baja  ,8.0,A quo odio.,En Espera,
+43,PRIORIDAD_FUGA,Media,8.0,Qui mollitia incidunt ab.,Activo,2.0
+44,PRIORIDAD_AUTEM,BAJA,8.0,Molestias rerum nesciunt corporis.,En Espera,5.0
+45,  pri_animi  ,Baja,8.0,Facilis ut voluptas aliquam facere.,Activo,3.0
+46,PRIORIDAD_VERO,Media,4.0,Pariatur explicabo nam soluta voluptate.,Activo,7.0
+47,PRIORIDAD_DOLOR,Baja,48.0,Sint voluptate repellat sunt ad.,Activo,5.0
+48,PRIORIDAD_IUSTO,Baja,,Rem sint repellat eaque ratione autem.,,7.0
+49,PRIORIDAD_AMET,  media  ,48.0,Dolore repellendus itaque esse recusandae dolorem ad.,Activo,5.0
+50,  pri_natus  ,Media,24.0,Eius architecto quo expedita magni perspiciatis.,Inactivo,7.0
+51,PRIORIDAD_QUIDEM,Crítica,24.0,Vel beatae voluptas debitis vitae eaque.,Activo,
+52,PRIORIDAD_CORRUPTI,Media,8.0,Ipsa quas et non maiores harum nemo ducimus.,En Espera,5.0
+53,PRIORIDAD_VOLUPTATUM,Alta,24.0,A unde modi quaerat quia perferendis.,Inactivo,5.0
+54,PRIORIDAD_MAIORES,Baja,4.0,Architecto optio ex et sed quaerat.,Activo,1.0
+55,  pri_quae  ,ALTA,24.0,Pariatur eveniet possimus mollitia deleniti.,Activo,7.0
+56,PRIORIDAD_VEL,  media  ,4.0,Perspiciatis temporibus nulla error molestias a.,En Espera,1.0
+57,PRIORIDAD_ILLO,Baja,48.0,Inventore neque omnis iure ipsam.,En Espera,1.0
+58,PRIORIDAD_ERROR,Media,2.0,Labore temporibus recusandae cumque assumenda maiores odio.,Activo,3.0
+59,PRIORIDAD_IUSTO,Baja,4.0,Repellendus quibusdam perferendis dolore.,En Espera,3.0
+60,  pri_dignissimos  ,Crítica,4.0,Aliquid voluptates nostrum.,,7.0
+61,PRIORIDAD_AUT,Media,24.0,Impedit occaecati deserunt possimus laudantium doloribus omnis.,En Espera,7.0
+62,PRIORIDAD_AB,Crítica,,Quod dolor rem possimus.,Activo,5.0
+63,PRIORIDAD_OFFICIIS,  crítica  ,2.0,Nam totam commodi.,Activo,1.0
+64,PRIORIDAD_DELENITI,Crítica,12.0,Pariatur voluptates nisi veniam tempora nostrum quaerat.,Inactivo,5.0
+65,  pri_nobis  ,Crítica,2.0,Ipsum culpa similique ipsum quibusdam saepe eius.,En Espera,
+66,PRIORIDAD_QUASI,BAJA,12.0,Occaecati earum aspernatur enim earum eum molestiae.,Activo,
+67,PRIORIDAD_DESERUNT,Alta,4.0,Doloremque possimus provident aperiam.,Activo,2.0
+68,PRIORIDAD_NEMO,Media,12.0,Molestiae impedit dignissimos in temporibus nesciunt.,En Espera,2.0
+69,PRIORIDAD_VOLUPTATEM,Crítica,8.0,Sequi quisquam fugit.,Activo,5.0
+70,  pri_libero  ,  media  ,12.0,Quidem sequi veritatis in quibusdam.,Activo,7.0
+71,PRIORIDAD_QUISQUAM,Baja,48.0,Tempore laborum earum laborum harum pariatur reiciendis quam.,Activo,7.0
+72,PRIORIDAD_OMNIS,Baja,2.0,Voluptatem modi tenetur nihil.,,2.0
+73,PRIORIDAD_UT,Media,12.0,Assumenda inventore sint.,Inactivo,5.0
+74,PRIORIDAD_DUCIMUS,Media,2.0,Ea eveniet iste.,Inactivo,2.0
+75,  pri_modi  ,Crítica,12.0,Quibusdam rerum dolorum aspernatur accusantium.,Activo,3.0
+76,PRIORIDAD_QUIS,Crítica,12.0,Voluptatum expedita officiis.,Inactivo,
+77,PRIORIDAD_TOTAM,  crítica  ,4.0,Quidem veniam dicta.,Activo,3.0
+78,PRIORIDAD_ADIPISCI,Media,24.0,Corrupti commodi pariatur natus dolor praesentium quisquam cumque.,Activo,
+79,PRIORIDAD_SEQUI,Baja,8.0,Quod cum est neque.,En Espera,1.0
+80,  pri_repellat  ,Baja,12.0,Id quaerat asperiores porro occaecati aut.,En Espera,7.0
+81,PRIORIDAD_INCIDUNT,Media,24.0,Rem recusandae natus aliquam minus optio architecto officia.,Activo,1.0
+82,PRIORIDAD_ACCUSANTIUM,Media,24.0,Reprehenderit autem vero odio repudiandae provident.,Activo,1.0
+83,PRIORIDAD_NOSTRUM,Media,2.0,Quasi vitae earum repellat.,Inactivo,7.0
+84,PRIORIDAD_QUIDEM,  media  ,24.0,Iure repudiandae nihil eum doloribus vel eius.,,7.0
+85,  pri_exercitationem  ,Baja,2.0,Necessitatibus pariatur excepturi laudantium eveniet laborum explicabo.,En Espera,5.0
+86,PRIORIDAD_FACILIS,Alta,4.0,Eius nisi sunt nam maxime deleniti.,Inactivo,
+87,PRIORIDAD_EXCEPTURI,Alta,8.0,Laborum quidem porro officia laudantium recusandae.,Activo,5.0
+88,PRIORIDAD_CONSECTETUR,MEDIA,48.0,Dolore porro esse neque labore.,En Espera,3.0
+89,PRIORIDAD_QUIA,Crítica,,Incidunt quia ex praesentium earum dolorum.,Inactivo,1.0
+90,  pri_earum  ,Baja,24.0,Blanditiis modi quis delectus dolor laborum.,Inactivo,7.0
+91,PRIORIDAD_REPUDIANDAE,  baja  ,24.0,Nisi voluptatem rerum eos facere esse provident.,Activo,2.0
+92,PRIORIDAD_DEBITIS,Alta,8.0,Aliquid amet eos velit odit.,Activo,1.0
+93,PRIORIDAD_PORRO,Media,8.0,Sit nemo iusto ipsam.,Inactivo,2.0
+94,PRIORIDAD_EA,Crítica,48.0,Dolorum similique beatae.,En Espera,3.0
+95,  pri_natus  ,Baja,,Asperiores occaecati amet corrupti natus esse voluptatibus.,En Espera,7.0
+96,PRIORIDAD_CUMQUE,Alta,48.0,Quisquam non ratione dolorem minima ipsum ipsam.,,1.0
+97,PRIORIDAD_REPUDIANDAE,Media,2.0,Esse numquam non qui veniam dignissimos.,Inactivo,1.0
+98,PRIORIDAD_ERROR,  media  ,8.0,Optio culpa cupiditate asperiores a.,Inactivo,7.0
+99,PRIORIDAD_ODIO,MEDIA,8.0,Iusto adipisci enim eligendi similique architecto doloremque eaque.,En Espera,2.0
+100,  pri_repudiandae  ,Alta,12.0,Incidunt molestias officia tenetur repudiandae.,En Espera,3.0
+101,PRIORIDAD_AUT,Baja,48.0,Cumque esse quibusdam necessitatibus.,Activo,5.0
+102,PRIORIDAD_ILLO,Alta,2.0,Commodi porro praesentium velit magnam laudantium.,Activo,3.0
+103,PRIORIDAD_BEATAE,Media,8.0,Aliquam inventore eum dolorum at vitae saepe nemo.,En Espera,2.0
+104,PRIORIDAD_ADIPISCI,Crítica,48.0,Nemo quis cupiditate maxime ipsam.,En Espera,5.0
+105,  pri_ducimus  ,  baja  ,2.0,Ipsa repellendus voluptas iusto illum eum autem cum.,Activo,
+106,PRIORIDAD_NEQUE,Media,2.0,Enim veniam repellendus mollitia iste et eum.,En Espera,3.0
+107,PRIORIDAD_NECESSITATIBUS,Media,4.0,Repudiandae a sit iure amet maxime numquam.,Inactivo,1.0
+108,PRIORIDAD_PRAESENTIUM,Alta,8.0,Ipsam amet eaque consectetur enim sunt laborum adipisci.,,1.0
+109,PRIORIDAD_SUSCIPIT,Alta,48.0,Reiciendis quae est accusamus illum dolore sapiente beatae.,Activo,2.0
+110,  pri_tenetur  ,BAJA,,Libero quaerat magni earum.,Inactivo,7.0
+111,PRIORIDAD_PERSPICIATIS,Crítica,48.0,Doloribus mollitia fugit ullam magni sunt sint.,En Espera,2.0
+112,PRIORIDAD_HARUM,  media  ,,Excepturi ratione eaque a quas saepe.,Activo,2.0
+113,PRIORIDAD_REPELLENDUS,Crítica,4.0,Sint ipsum laborum ex quis fugiat ut.,Activo,
+114,PRIORIDAD_EAQUE,Alta,,Nemo doloremque quod aliquam quia.,Inactivo,
+115,  pri_modi  ,Media,4.0,Voluptates recusandae officiis corrupti vitae commodi.,Inactivo,
+116,PRIORIDAD_RERUM,Baja,,Sit soluta ipsam minima itaque quam.,Inactivo,1.0
+117,PRIORIDAD_NEMO,Crítica,4.0,Asperiores quos eaque numquam.,Activo,5.0
+118,PRIORIDAD_NAM,Alta,,Sequi sequi similique fugit.,Inactivo,2.0
+119,PRIORIDAD_IPSUM,  media  ,48.0,Quaerat quis sit alias architecto occaecati ullam voluptatum.,Activo,2.0
+120,  pri_nostrum  ,Crítica,8.0,Quis provident aut cumque.,,3.0
+121,PRIORIDAD_IN,BAJA,8.0,Aliquid recusandae eos.,Inactivo,
+122,PRIORIDAD_MINIMA,Crítica,,Corporis minus natus recusandae cumque aspernatur.,En Espera,7.0
+123,PRIORIDAD_MODI,Alta,2.0,Placeat libero nesciunt doloremque odit itaque pariatur tempore.,Activo,3.0
+124,PRIORIDAD_OMNIS,Media,8.0,Perspiciatis culpa ipsam exercitationem nesciunt.,En Espera,1.0
+125,  pri_nisi  ,Baja,12.0,Itaque error voluptatum sequi autem.,En Espera,3.0
+126,PRIORIDAD_MODI,  alta  ,24.0,Facere eos praesentium accusantium rerum id ab.,Inactivo,7.0
+127,PRIORIDAD_VITAE,Baja,24.0,Tenetur quia rerum.,Inactivo,2.0
+128,PRIORIDAD_ILLO,Alta,48.0,Non explicabo odio numquam perspiciatis.,Activo,5.0
+129,PRIORIDAD_UNDE,Baja,,Occaecati temporibus officia est.,En Espera,7.0
+130,  pri_aliquid  ,Media,12.0,Facilis consectetur tenetur eveniet impedit dicta ratione soluta.,Inactivo,1.0
+131,PRIORIDAD_MAIORES,Alta,8.0,Magnam earum cum totam velit voluptas eos.,En Espera,
+132,PRIORIDAD_LABORE,BAJA,48.0,Iusto asperiores quidem dolorem.,,3.0
+133,PRIORIDAD_VERITATIS,  alta  ,12.0,Voluptas rem facilis ratione accusamus modi.,En Espera,3.0
+134,PRIORIDAD_ODIT,Crítica,8.0,Perferendis perferendis nesciunt reprehenderit velit autem.,En Espera,7.0
+135,  pri_optio  ,Media,12.0,Nulla velit eveniet.,Activo,
+136,PRIORIDAD_SIMILIQUE,Crítica,48.0,Officia odio iure praesentium officiis.,En Espera,2.0
+137,PRIORIDAD_CUM,Alta,24.0,Aliquid alias voluptatum blanditiis.,Inactivo,1.0
+138,PRIORIDAD_EX,Alta,4.0,Consequatur iste perferendis quia veniam in quia.,Inactivo,5.0
+139,PRIORIDAD_DOLOR,Alta,12.0,Omnis rerum nulla vel eius porro.,Inactivo,5.0
+140,  pri_numquam  ,  media  ,12.0,Veritatis sequi aut placeat molestias voluptate.,En Espera,
+141,PRIORIDAD_MAGNAM,Media,2.0,Id deleniti commodi sed.,En Espera,3.0
+142,PRIORIDAD_ODIT,Alta,,Optio odit nisi accusantium.,Activo,2.0
+143,PRIORIDAD_IUSTO,ALTA,,Voluptates ratione dignissimos rerum mollitia.,Activo,2.0
+144,PRIORIDAD_REPUDIANDAE,Media,2.0,Repellat doloremque quo ratione nisi.,,1.0
+145,  pri_dignissimos  ,Media,24.0,Molestiae reiciendis beatae sint.,Inactivo,1.0
+146,PRIORIDAD_DELECTUS,Crítica,48.0,Facere ratione nihil.,Inactivo,7.0
+147,PRIORIDAD_AD,  media  ,48.0,Eaque consectetur in beatae.,En Espera,5.0
+148,PRIORIDAD_AT,Crítica,4.0,Ipsum facere nisi iste dolore nostrum quas.,Inactivo,2.0
+149,PRIORIDAD_UNDE,Baja,,Error officia adipisci voluptatum sed incidunt autem.,Activo,5.0
+150,  pri_aut  ,Media,,Eum corporis commodi numquam.,Activo,
+151,PRIORIDAD_REPREHENDERIT,Crítica,24.0,Quae fugit nisi eos magni inventore recusandae.,Activo,2.0
+152,PRIORIDAD_CUM,Baja,4.0,Quam dolor iste dolorem excepturi iste impedit.,Inactivo,5.0
+153,PRIORIDAD_CONSEQUATUR,Alta,24.0,Incidunt pariatur fugiat corrupti ullam architecto.,Inactivo,
+154,PRIORIDAD_BLANDITIIS,  crítica  ,12.0,Inventore quia fuga consectetur.,En Espera,2.0
+155,  pri_repudiandae  ,Crítica,8.0,Natus pariatur illum sit velit in totam.,Inactivo,2.0
+156,PRIORIDAD_ASPERIORES,Alta,,Nobis expedita neque distinctio omnis.,,7.0
+157,PRIORIDAD_ET,Crítica,4.0,Expedita nam beatae eius.,En Espera,3.0
+158,PRIORIDAD_ET,Crítica,48.0,Sapiente voluptate repellendus nostrum odit ad.,Activo,3.0
+159,PRIORIDAD_UNDE,Media,8.0,Adipisci earum quis ullam expedita.,Inactivo,3.0
+160,  pri_dicta  ,Baja,4.0,Omnis architecto qui voluptas at minus fugiat.,Activo,2.0
+161,PRIORIDAD_ODIT,  crítica  ,4.0,Culpa est eveniet velit nisi sunt.,En Espera,
+162,PRIORIDAD_DOLOR,Media,12.0,Quidem amet aspernatur ipsam.,Activo,5.0
+163,PRIORIDAD_NISI,Alta,12.0,Non impedit dolor maiores exercitationem beatae perspiciatis.,En Espera,5.0
+164,PRIORIDAD_RERUM,Baja,,Minima est dolore voluptates amet dignissimos veniam.,Activo,5.0
+165,  pri_facere  ,CRÍTICA,48.0,Eveniet ab quia cupiditate fugit.,En Espera,1.0
+166,PRIORIDAD_VOLUPTATIBUS,Crítica,2.0,Magnam rerum rem asperiores similique.,Inactivo,3.0
+167,PRIORIDAD_ANIMI,Alta,,Accusantium ullam similique nemo nemo quae.,Inactivo,5.0
+168,PRIORIDAD_NESCIUNT,  media  ,12.0,Beatae accusantium eveniet reiciendis nulla.,,2.0
+169,PRIORIDAD_VOLUPTAS,Alta,12.0,At sapiente doloribus nihil minima id.,Inactivo,1.0
+170,  pri_labore  ,Crítica,48.0,Ex cumque magni beatae magni.,Inactivo,
+171,PRIORIDAD_LAUDANTIUM,Crítica,4.0,Quas reprehenderit repellendus dolores corporis deserunt.,En Espera,5.0
+172,PRIORIDAD_SED,Media,24.0,Quis omnis debitis quo.,En Espera,1.0
+173,PRIORIDAD_POSSIMUS,Crítica,24.0,Quidem quis ipsum unde natus odio numquam.,En Espera,
+174,PRIORIDAD_SUNT,Baja,48.0,Corrupti architecto ipsam esse earum animi.,Activo,5.0
+175,  pri_aut  ,  media  ,4.0,Iure alias fuga enim officia.,Inactivo,1.0
+176,PRIORIDAD_CONSECTETUR,ALTA,8.0,Nisi fugit neque veritatis qui aliquam tenetur nemo.,Inactivo,2.0
+177,PRIORIDAD_EAQUE,Crítica,8.0,Non magnam vero ipsum repellat saepe.,Inactivo,5.0
+178,PRIORIDAD_BLANDITIIS,Alta,8.0,Officia aliquam provident voluptatibus minima non facilis.,Inactivo,1.0
+179,PRIORIDAD_ID,Crítica,48.0,Illum excepturi nisi ratione officia aperiam.,Activo,7.0
+180,  pri_quos  ,Baja,8.0,Eligendi quam omnis temporibus sit ex.,,2.0
+181,PRIORIDAD_REPREHENDERIT,Baja,2.0,Totam est omnis optio.,En Espera,1.0
+182,PRIORIDAD_DELECTUS,  media  ,,Quae assumenda nam officia eveniet consectetur praesentium veniam.,Activo,1.0
+183,PRIORIDAD_VITAE,Media,4.0,Atque perferendis magni accusantium est veritatis exercitationem.,Activo,5.0
+184,PRIORIDAD_PLACEAT,Baja,4.0,Dolorem consequuntur aspernatur sapiente aut.,En Espera,5.0
+185,  pri_qui  ,Alta,4.0,Optio soluta nulla.,Inactivo,7.0
+186,PRIORIDAD_SAEPE,Baja,8.0,Culpa debitis possimus numquam temporibus quam.,Activo,1.0
+187,PRIORIDAD_APERIAM,BAJA,24.0,Facilis quaerat voluptas nostrum quibusdam quos.,Inactivo,
+188,PRIORIDAD_EVENIET,Crítica,48.0,Dolores vitae quos temporibus deserunt perspiciatis necessitatibus.,Inactivo,2.0
+189,PRIORIDAD_NULLA,  baja  ,48.0,Quo quod magnam in cum dicta non.,En Espera,
+190,  pri_asperiores  ,Media,48.0,Soluta mollitia aut sapiente sed eligendi quis.,Activo,3.0
+191,PRIORIDAD_FUGIT,Baja,,Temporibus corporis ipsa veniam dolore iste expedita.,En Espera,1.0
+192,PRIORIDAD_ALIAS,Alta,24.0,Amet magnam doloremque voluptatum fugiat adipisci.,,5.0
+193,PRIORIDAD_CONSEQUUNTUR,Alta,24.0,Recusandae consequuntur enim rerum possimus consequuntur.,Activo,
+194,PRIORIDAD_VOLUPTATIBUS,Alta,,Ipsum a aspernatur ducimus rerum molestias quas.,Activo,5.0
+195,  pri_nisi  ,Crítica,12.0,Quod dolores commodi dolores.,Activo,3.0
+196,PRIORIDAD_TEMPORE,  crítica  ,4.0,Itaque beatae temporibus nisi accusamus maiores doloribus corporis.,En Espera,5.0
+197,PRIORIDAD_NOBIS,Media,24.0,Nostrum dolores impedit.,En Espera,
+198,PRIORIDAD_VEL,ALTA,,Minima facere veritatis molestias.,En Espera,7.0
+199,PRIORIDAD_QUAE,Crítica,12.0,Accusantium sit aliquam harum fuga quibusdam explicabo.,Inactivo,
+200,  pri_laborum  ,Alta,,Quasi occaecati quo quasi ex.,Inactivo,2.0
+6,PRIORIDAD_MAGNI,Baja,4.0,Deleniti architecto optio quo voluptates sequi sint.,En Espera,
+16,PRIORIDAD_CULPA,Baja,48.0,Ipsa iste veritatis soluta ea.,Activo,2.0
+26,PRIORIDAD_PARIATUR,Alta,8.0,Deleniti atque inventore incidunt iure quas.,Inactivo,1.0
+36,PRIORIDAD_OFFICIA,Crítica,24.0,Ut vel ab numquam natus aut.,,5.0
+46,PRIORIDAD_VERO,Media,4.0,Pariatur explicabo nam soluta voluptate.,Activo,7.0
