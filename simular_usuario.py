@@ -82,3 +82,11 @@ def ensuciar(datos_df):
 
     subconjunto_datos=generar_muestra(datos_df,0.15)
     datos_df.loc[subconjunto_datos,"rol"]=datos_df.loc[subconjunto_datos,"rol"].map(escribir_mal)
+
+    # Para el atributo fecha_registro: dos formatos mezclados ("2026-03-15 14:30:00" y "15/03/2026 14:30")
+    # (si tu fecha es solo fecha, sin hora, usa "%Y-%m-%d" y "%d/%m/%Y")
+    iso = datos_df["fecha_registro"].dt.strftime("%Y-%m-%d %H:%M:%S")               
+    latino = datos_df["fecha_registro"].dt.strftime("%d/%m/%Y %H:%M")              
+    datos_df["fecha_registro"] = iso                                               
+    filas_elegidas = generar_muestra(datos_df, 0.40)
+    datos_df.loc[filas_elegidas, "fecha_registro"] = latino.loc[filas_elegidas]    
