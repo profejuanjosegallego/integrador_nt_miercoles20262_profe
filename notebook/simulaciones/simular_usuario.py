@@ -1,34 +1,35 @@
-import random 
-import uuid 
-import pandas as pd
+import random
+import uuid
 from faker import Faker
 
-#1. Escoger el pais y lenguaje para simular los datos
-fake=Faker("es_CO") 
+#1. configurar el faker a la region que necesito
+fake=Faker("es_CO")
 
-#2. Sembrar semillas
+#2. Sembrar semillas para tener coherencia en los datos
+#simulados
 Faker.seed(42)
 random.seed(42)
 
-#3. Definir el dato y su tipo a simular
-#id (texto (UUID)), 
-#nombre (texto), 
-#correo (texto), 
-#contrasena_hash (texto), 
-#rol (texto), *****************
-#activo (booleano), 
-#fecha_registro (fecha y hora).
+#3. Identifico los datos que debo simular
+#id (texto (UUID))
+#nombre (texto)
+#correo (texto)
+#contrasena_hash (texto)
+#rol (texto)
+#activo (booleano),
+#fecha_registro (fecha y hora)
 
-#4. Definir el numero de datos simulados (DATASET)
+#4. Identifico los datos o el dato que sea un selector
+ROLES=["ADMIN","EMPRESA","PARTICIPANTE"]
+
+#5. Defino mi DATASET
 FILAS=400
 
-ROLES=["administrador","empresario","profesor"]
-
-#5. Construir funcion generadora de datos
-def generar_datos_usuarios(numero_registros=FILAS):
-
+#6. Construyo una funcion para generar los N datos pedidos (LIMPIOS)
+def generar_datos_limpios(numero_datos=FILAS):
     filas=[]
-    for _ in range(numero_registros):
+    for _ in range(numero_datos):
+
         filas.append({
             "id":str(uuid.uuid4()),
             "nombre":fake.name(),
@@ -37,56 +38,64 @@ def generar_datos_usuarios(numero_registros=FILAS):
             "rol":random.choice(ROLES),
             "activo":random.choice([True,False]),
             "fecha_registro":fake.date_time_between(start_date="-2y", end_date="now")
+
         })
     return filas
 
+#Ensuciar los datos
 
-#6. Utilizaremos PANDAS para ordenar los datos simualados en un DATAFRAME
-tabla_ordenada_usuarios=pd.DataFrame(generar_datos_usuarios())
+#1. Crear una funcion para definir procentajes de error
+def generar_muestra(datos,porcentaje):
+    #frac es el porcentaje de filas que se toman al azar
+    return datos.sample(frac=porcentaje, random_state=random.randint(0,999)).index
 
-#7. Ensuciar los datos
+#2. Crear una funcion para escribir mal un texto
+def escribir_mal(texto):
+    variantes=[texto.lower(),f" {texto.title()} ", texto.capitalize()]
+    return random.choice(variantes)
 
-#7.1. Generar una fucnion que muestrelos datos
-def  generar_muestra(datos,porcentaje):
-    return datos.sample(fraccion=porcentaje,random_state=random.randint(0,9999)).index
+#3. Convertir boolenos en textos
+def convertir_booleano_texto(valor):
+    if valor:
+        return random.choice(["SI", "1"])
+    return random.choice(["NO", "0"])
 
-#7.2 Funcion que ensucia los datos
+#4. Funcion para ensuciar los datos
 def ensuciar(datos_df):
     datos_df=datos_df.copy()
+    #nombre: 10% con espacios sobrantes, 8% Mayuscula
+    filas_elegidas=generar_muestra(datos_df,0.10)
+    datos_df.loc[filas_elegidas,"nombre"]=" "+datos_df.loc[filas_elegidas,"nombre"]+" "
 
-    #para el atributo nombre generar el 10% con espacios sobrantes
-    subconjunto_datos=generar_muestra(datos_df,0.1)
-    datos_df.loc[subconjunto_datos,"nombre"]=" "+datos_df.loc[subconjunto_datos,"nombre"]+" "
+    filas_elegidas=generar_muestra(datos_df,0.08)
+    datos_df.loc[filas_elegidas,"nombre"]=datos_df.loc[filas_elegidas,"nombre"].str.upper()
 
-    #para el atributo nombre generar el 8% en MAYUSCULA
-    subconjunto_datos=generar_muestra(datos_df,0.08)
-    datos_df.loc[subconjunto_datos,"nombre"]=datos_df.loc[subconjunto_datos,"nombre"].upper()
+    #correo: 12% Mayusculas 5% sin el arroba 4% en None
+    filas_elegidas=generar_muestra(datos_df,0.12)
+    datos_df.loc[filas_elegidas,"correo"]=datos_df.loc[filas_elegidas,"correo"].str.upper()
 
-    #Para el atributo correo necesito el 12% de los datos en MAYUSCULA
-    subconjunto_datos=generar_muestra(datos_df,0.12)
-    datos_df.loc[subconjunto_datos,"correo"]=datos_df.loc[subconjunto_datos,"correo"].str.upper()
+    filas_elegidas=generar_muestra(datos_df,0.05)
+    datos_df.loc[filas_elegidas,"correo"]=datos_df.loc[filas_elegidas,"correo"].str.replace("@","", regex=False)
 
-    #Para el atributo correo necesito el 5% de los datos sin @
-    subconjunto_datos=generar_muestra(datos_df,0.05)
-    datos_df.loc[subconjunto_datos,"correo"]=datos_df.loc[subconjunto_datos,"correo"].str.replace("@","", regex=False)
+    filas_elegidas=generar_muestra(datos_df,0.04)
+    datos_df.loc[filas_elegidas,"correo"]=None
 
-    #Para el atributo correo necesito el 4% de los datos en None
-    subconjunto_datos=generar_muestra(datos_df,0.04)
-    datos_df.loc[subconjunto_datos,"correo"]=None
+    #rol variantes de escritura (admin ADMIN Admin)
+    filas_elegidas=generar_muestra(datos_df,0.07)
+    datos_df.loc[filas_elegidas,"rol"]=datos_df.loc[filas_elegidas,"rol"].map(escribir_mal)
 
-    #Para el atributo rol para la palabra administrador y las otras generar variantes de escritura (Mayusculas, capital, espaciado)
+    #fecha dos formatos mezclados (2026-03-15 14:30:00 y 15/03/2026 14:30)
+    iso=datos_df["fecha_registro"].dt.strftime("%Y-%m-%d %H:%M:%S")
+    latino=datos_df["fecha_registro"].dt.strftime("%d/%m/%Y %H:%M")
+    datos_df["fecha_registro"]=iso
+    filas_elegidas=generar_muestra(datos_df,0.4)
+    datos_df.loc[filas_elegidas,"fecha_registro"]=latino.loc[filas_elegidas]
 
-    def escribir_mal(texto):
-        variantes=[texto.lower(), f" {texto.title()} ", texto.capitalize()]
-        return random.choice(variantes)
+    #activo en ocaciones llega SI NO 1 o 0
+    #primero la columna pasa a tipo object para que acepte textos y booleanos
+    datos_df["activo"]=datos_df["activo"].astype(object)
+    filas_elegidas=generar_muestra(datos_df,0.3)
+    datos_df.loc[filas_elegidas,"activo"]=datos_df.loc[filas_elegidas,"activo"].map(convertir_booleano_texto)
 
-    subconjunto_datos=generar_muestra(datos_df,0.15)
-    datos_df.loc[subconjunto_datos,"rol"]=datos_df.loc[subconjunto_datos,"rol"].map(escribir_mal)
-
-    # Para el atributo fecha_registro: dos formatos mezclados ("2026-03-15 14:30:00" y "15/03/2026 14:30")
-    # (si tu fecha es solo fecha, sin hora, usa "%Y-%m-%d" y "%d/%m/%Y")
-    iso = datos_df["fecha_registro"].dt.strftime("%Y-%m-%d %H:%M:%S")               
-    latino = datos_df["fecha_registro"].dt.strftime("%d/%m/%Y %H:%M")              
-    datos_df["fecha_registro"] = iso                                               
-    filas_elegidas = generar_muestra(datos_df, 0.40)
-    datos_df.loc[filas_elegidas, "fecha_registro"] = latino.loc[filas_elegidas]    
+    #devuelvo la tabla ya sucia
+    return datos_df
